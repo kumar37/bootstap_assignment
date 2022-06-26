@@ -16,68 +16,111 @@
    <body>
       <main>
          <div class="container-fluid">
-         <form action="/action_page.php">
-            <div class="card">
-               <div class="card-header">My Calc</div>
-               <div class="card-body">
-                  <div class="mb-3 row">
-                     <label for="Input1" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Input 1</label>
-                     <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
-                        <input type="text" class="form-control" id="Input1">
+            <form action="/action_page.php">
+               <div class="card">
+                  <div class="card-header">My Calc</div>
+                  <div class="card-body">
+                     <div class="mb-3 row">
+                        <label for="Input1" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Input 1</label>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
+                           <input type="text" class="form-control" id="Input1">
+                        </div>
                      </div>
-                  </div>
-                  <div class="mb-3 row">
-                     <label for="Input2" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Input 2</label>
-                     <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
-                        <input type="text" class="form-control" id="Input2">
+                     <div class="mb-3 row">
+                        <label for="Input2" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Input 2</label>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
+                           <input type="text" class="form-control" id="Input2">
+                        </div>
                      </div>
-                  </div>
-                  <div class="mb-3 row">
-                     <label for="Input2" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Output</label>
-                     <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
-                        <div class="input-group mb-3">
-                           <span class="input-group-text" id="output">=</span>
-                           <input type="text" class="form-control" placeholder="result">
+                     <div class="mb-3 row">
+                        <label for="Input2" class="col-sm-2 col-md-2 col-lg-2 col-lx-2 col-form-label">Output</label>
+                        <div class="col-sm-10 col-md-10 col-lg-10 col-lx-10">
+                           <div class="input-group mb-3">
+                              <span class="input-group-text" id="output">=</span>
+                              <input type="text" class="form-control" placeholder="result">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="mb-3 row">
+                        <label class="col-sm-2 col-md-2 col-lg-2 col-lx-2 
+                           col-form-label">Choose Input type</label>
+                        <div class="form-check col-sm-04 col-md-04 col-lg-04 col-lx-04">
+                           <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioInput1" checked>
+                           <label class="form-check-label" for="flexRadioInput1">
+                           Input 1
+                           </label>
+                        </div>
+                        <div class="form-check col-sm-04 col-md-04 col-lg-04 col-lx-04">
+                           <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioInput2" >
+                           <label class="form-check-label" for="flexRadioInput2">
+                           Input 2
+                           </label>
                         </div>
                      </div>
                   </div>
-                  <div class="mb-3 row">
-                     <label class="col-sm-2 col-md-2 col-lg-2 col-lx-2 
-                     col-form-label">Choose Input type</label>
-                     <div class="form-check col-sm-04 col-md-04 col-lg-04 col-lx-04">
-                        <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioInput1" checked>
-                        <label class="form-check-label" for="flexRadioInput1">
-                        Input 1
-                        </label>
-                     </div>
-                     <div class="form-check col-sm-04 col-md-04 col-lg-04 col-lx-04">
-                        <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioInput2" >
-                        <label class="form-check-label" for="flexRadioInput2">
-                        Input 2
-                        </label>
-                     </div>
-                  </div>
-                  <div class="mb-3 row">
-                    <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
-                  <button type="button" class="btn btn-outline-primary">Primary</button>
-                    </div>
-                    <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
-                    <button type="button" class="btn btn-outline-primary">Primary</button>
-                      </div>
-                      <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
-                      <button type="button" class="btn btn-outline-primary">Primary</button>
-                        </div>
-                        <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
-                        <button type="button" class="btn btn-outline-primary">Primary</button>
-                          </div>
-                </div>
-                  
-                  </div>
-                  
                </div>
-            </div>
          </div>
-        </form>
+         </div>
+         </div>
+         <div class="container-fluid">
+         <div class="col-sm-3 col-md-3 col-lg-3 col-lx-3">
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         </div>
+         <div class="col-sm-3 col-md-3 col-lg-3 col-lx-3">
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         </div>
+         <div class="col-sm-3 col-md-3 col-lg-3 col-lx-3">
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         </div>
+         <div class="col-sm-3 col-md-3 col-lg-3 col-lx-3">
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         <div class="col-sm-03 col-md-03 col-lg-03 col-lx-03">
+         <button type="button" class="btn btn-outline-primary">Primary</button>
+         </div>
+         </div>
+         </div>
+         </form>
          </div>
       </main>
       <!-- Optional JavaScript; choose one of the two! -->
