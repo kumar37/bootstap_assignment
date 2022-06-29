@@ -12,7 +12,7 @@
          crossorigin="anonymous"
          />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-      <title>BootStrap Calc</title>
+      <title>View Details</title>
    </head>
    <body>
       <main>
@@ -20,107 +20,90 @@
             <form action="/action_page.php">
                <div class="row">
                   <div class="col-sm-3 col-md-4 col-lg-4 col-lx-4">
+                 
                   </div>
                   <div class="col-sm-6 col-md-4 col-lg-4 col-lx-4">
-                     <div class="card">
-                        <div class="card-header">My Calc</div>
+                     <div class="card" id="rcorner">
                         <div class="card-body">
-                           <div class="mb-3 row">
-                              <label for="Input1" class="col-sm-3 col-md-3 col-lg-3 col-lx-3 col-form-label">Input 1</label>
-                              <div class="col-sm-9 col-md-9 col-lg-9 col-lx-9">
-                                 <input type="text" class="form-control" id="Input1" readonly>
+                        <div class="container__wrapper">
+                        <!-- The ribbon -->
+                        <div class="container__ribbon">
+                        <span style="color: #ffff;">Active</span>
+                        </div>
+                    </div>
+                        <div class="row">
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                           <label class="col-form-label lightgreen">XXXXXXXX X X</label>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                        </div>
+                     </div>
+                           <div class="row">
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
                               </div>
-                           </div>
-                           <div class="mb-3 row">
-                              <label for="Input2" class="ccol-sm-3 col-md-3 col-lg-3 col-lx-3 col-form-label">Input 2</label>
-                              <div class="col-sm-9 col-md-9 col-lg-9 col-lx-9">
-                                 <input type="text" class="form-control" id="Input2" readonly>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                                 <label class="col-form-label">ID</label>
                               </div>
-                           </div>
-                           <div class="mb-3 row">
-                              <label for="Input2" class="col-sm-3 col-md-3 col-lg-3 col-lx-3 col-form-label">Output</label>
-                              <div class="col-sm-9 col-md-9 col-lg-9 col-lx-9">
-                                 <div class="input-group mb-3">
-                                    <span class="input-group-text" id="output">=</span>
-                                    <input type="text" class="form-control" placeholder="result" readonly>
-                                 </div>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                                 <label class="col-form-label">000</label>
                               </div>
-                           </div>
-                           <div class="mb-3 row">
-                              <div class="form-check col-sm-06 col-md-06 col-lg-06 col-lx-06 ml27">
-                                 <input class="form-check-input" type="radio" name="flexRadio" id="flexRadioInput1" checked>
-                                 <label class="form-check-label" for="flexRadioInput1">
-                                 Input 1
-                                 </label>
-                                 <input class="" type="radio" name="flexRadio" id="flexRadioInput2" >
-                                 <label class="form-check-label" for="flexRadioInput2">
-                                 Input 2
-                                 </label>
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
                               </div>
                            </div>
                            <div class="row">
-                              <div class="col-sm-12 col-md-12 col-lg-3 col-lx-3">
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-9"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-6"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-3"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span class="ce">CE</span></button>
-                                 </div>
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                              <!-- <button type="button" class="lightgreen circle"><span></span></button> -->
+                              <a href="#" class="lightgreen"><span><i class="fa-solid fa-circle-xmark icircle"></i></span></a>
                               </div>
-                              <div class="col-sm-12 col-md-12 col-lg-3 col-lx-3">
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-8"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-5"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-2"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-03 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-0"></i></span></button>
-                                 </div>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                                 <label class="col-form-label">ID 2</label>
                               </div>
-                              <div class="col-sm-12 col-md-12 col-lg-3 col-lx-3">
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-7"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-4"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-1"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-plus"></i></span></button>
-                                 </div>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2"">
+                                 <label class="col-form-label">#XXXX</label>
                               </div>
-                              <div class="col-sm-12 col-md-12 col-lg-3 col-lx-3">
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fas fa-long-arrow-alt-left"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-minus"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-star-of-life"></i></span></button>
-                                 </div>
-                                 <div class="col-sm-12 col-md-06 col-lg-03 col-lx-03">
-                                    <button type="button" class="btn btn-outline-primary btnwd"><span><i class="fa-solid fa-divide"></i></span></button>
-                                 </div>
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                              <a href="#" class="lightgreen"><span><i class="fa-solid fa-circle-info"></i></span></a>
                               </div>
                            </div>
+                           <div class="row">
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                              </div>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                                 <label class="col-form-label">ID 3</label>
+                              </div>
+                              <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2"">
+                                 <label class="col-form-label">XXXX</label>
+                              </div>
+                              <div class="col-sm-4 col-md-4 col-lg-4 col-lx-4">
+                              </div>
+                           </div>
+                           <div class="row">
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           </div>
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           <a href="#" class="lightgreen"><span><i class="fa-solid fa-message icircle"></i></span></a>
+                           </div>
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           <a href="#" class="lightgreen"><span><i class="fa-solid fa-phone icircle"></i></span></a>
+                           </div>
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           <a href="#" class="lightgreen"><span><i class="fa-solid fa-eye icircle"></i></span></a>
+                           </div>
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           <a href="#" class="lightgreen"><span><i class="fa-solid fa-toggle-off icircle"></i></span></a>
+                           </div>
+                           <div class="col-sm-2 col-md-2 col-lg-2 col-lx-2">
+                           </div>
+                        </div>
                         </div>
                      </div>
-                     <div class="col-sm-3 col-md-4 col-lg-4 col-lx-4"></div>
                   </div>
                </div>
+               <div class="col-sm-3 col-md-4 col-lg-4 col-lx-4"></div>
+         </div>
+         </div>
          </div>
          </div>
          </div>
@@ -155,5 +138,63 @@
       font-family: "Font Awesome 6 Free";
       font-weight: 900;
       }
+      .lightgreen{
+         color:#69fd0d;
+         font-weight: bold;
+      }
+      .icircle {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+.circle {
+        border-radius: 100%;        
+        background: #69fd0d;
+        display:inline-block;
+        line-height:100px;
+    }
+    .card-body {
+                        position: relative;
+                    }
+
+                    .container__wrapper {
+                        /* Displayed at the top left corner */
+                        left: 0px;
+                        position: absolute;
+                        top: 0px;
+
+                        /* Size */
+                        height: 100px;
+                        width: 100px;
+
+                        /* Hide the part of its children which is displayed outside */
+                        overflow: hidden;
+                    }
+
+                    .container__ribbon {
+                        /* Position */
+                        left: -64px;
+                        position: absolute;
+                        /* top: -32px; */
+
+                        /* Size */
+                        height: 50px;
+                        width: 206px;
+
+                        /* Displayed diagonally */
+                        transform: rotate(-45deg);
+
+                        /* Background color */
+                        background-color:  #69fd0d;
+
+                        /* Centerize the text content */
+                        text-align: center;
+                    }
+#rcorner {
+  border-radius: 25px;
+
+}
    </style>
 </html>
